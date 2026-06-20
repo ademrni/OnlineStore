@@ -1,0 +1,41 @@
+.bg-secondary {
+background-color: #3C3C3D !important;
+border-bottom: 1px solid #d2d2d7;
+}
+.copyright {
+ background-color: #f5f5f7;
+ color: #6e6e73;
+ border-top: 1px solid #d2d2d7;
+}
+.bg-primary {
+ background-color: #3C3C3D !important;
+ color: #C0C0C0 !important;
+}
+nav{
+font-weight: 700;
+color: #1d1d1f;
+}
+.img-card{
+height: 18vw;
+background-color: #3C3C3D;
+padding: 20px;
+transition: transform 0.3s ease;
+}
+.img-card:hover {
+    transform: scale(1.05);
+}
+.card {
+    border: none;
+    border-radius: 18px;
+    background-color: #C0C0C0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+body {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+}
